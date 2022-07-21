@@ -1,22 +1,116 @@
-<h1>LexMusic</h1>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut velit ut
-  leo placerat vehicula in quis nisi. Curabitur quis efficitur mauris. Donec non
-  eros molestie, ultrices nulla suscipit, pharetra diam.
-</p>
-<p>
-  <a href="https://www.google.com/" target="_blank">Sign up</a> or
-  <a href="https://www.google.com/">More about</a>
-</p>
-<img src="/assets/image3.jpg" alt="Conjunto de pessoas ouvindo música" />
-<h2>The best song in the whole world</h2>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut velit ut
-  leo placerat vehicula in quis nisi. Curabitur quis efficitur mauris.
-</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 2 - Estruras e Organização de HTML</title>
+  </head>
 
-<ul>
-    <li>Donec non eros molestie, ultrices nulla suscipit.</li>
-    <li>Donec non eros molestie, ultrices nulla suscipit.</li>
-</ul>
-<a href="https://www.google.com/">Sign up</a>
+  <body>
+    <header>
+      <!-- Nav: marca o menu de navegação -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#bestsong">Best Songs</a>
+          </li>
+          <li>
+            <a href="#artist">Top Artists</a>
+          </li>
+          <li>
+            <a href="#readytorock">Ready to Rock</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="main" style="background-color: #e8e8e8; margin: 60px; padding: 60px;">
+        <h1 style="color:blue; font-size: 54px; font-weight: 300;">LexMusic</h1>
+
+        <p style="font-family: Arial;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit ut leo placerat vehicula in quis nisi. Curabitur quis efficitur
+          mauris. Donec non eros molestie, ultrices nulla suscipit, pharetra
+          diam.
+        </p>
+
+        <p style="font-family: Arial;">
+          <a href="https://www.google.com/" target="_blank">Sign up</a> or
+          <a href="https://www.google.com/">More about</a>
+        </p>
+
+        <img
+          src="/assets/image3.jpg"
+          alt="Conjunto de pessoas ouvindo música"
+          style="width: 100%"
+        />
+      </section>
+
+      <section id="bestsong">
+        <h2 style="color:blueviolet; font-size: 40px; font-weight: 300; font-style: italic;">The best song in the whole world</h2>
+
+        <p style="font-family: Arial;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit ut leo placerat vehicula in quis nisi. Curabitur quis efficitur
+          mauris.
+        </p>
+
+        <ul>
+          <li style="font-family: Arial;">Donec non eros molestie, ultrices nulla suscipit.</li>
+          <li style="font-family: Arial;">Donec non eros molestie, ultrices nulla suscipit.</li>
+        </ul>
+
+        <a href="https://www.google.com/">Sign up</a>
+
+        <img src="/assets/image1.jpg" alt="Menina ouvindo música" />
+      </section>
+
+      <section id="artist">
+        <h2>Most hated artists</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit ut leo placerat vehicula in quis nisi. Curabitur quis efficitur
+          mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus ut velit ut leo placerat vehicula in quis nisi. Curabitur
+          quis efficitur mauris.
+        </p>
+
+        <h3>Clair Jones</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit.
+        </p>
+
+        <img src="/assets/image4.jpg" alt="Clair Jones, cantora" />
+
+        <h3>Mary Luccas</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit.
+        </p>
+
+        <img src="/assets/image2.jpg" alt="Clair Jones, cantora" />
+      </section>
+
+      <section id="readytorock">
+        <h2>Ready to rock?</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut
+          velit ut leo placerat vehicula in quis nisi. Curabitur quis efficitur
+          mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus ut velit ut leo placerat vehicula in quis nisi. Curabitur
+          quis efficitur mauris.
+        </p>
+        <a href="https://google.com.br" target="_blank"> Sign up </a>
+      </section>
+    </main>
+
+    <footer>Footer</footer>
+  </body>
+</html>
